@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 const navLinks = [
   { to: '/about', label: 'About' },
   { to: '/projects', label: 'Projects' },
+  { to: '/books', label: 'Books' },
   { to: '/stack', label: 'Stack' },
   { to: '/now', label: 'Now' },
 ]
@@ -24,14 +25,6 @@ export default function Layout({ children }) {
               {label}
             </Link>
           ))}
-          <a
-            href="https://github.com/tuhuynh27"
-            target="_blank"
-            rel="noreferrer"
-            className="nav-link"
-          >
-            GitHub
-          </a>
           <a href="mailto:ktuhuy1610@gmail.com" className="nav-link">Email</a>
         </nav>
       </header>
