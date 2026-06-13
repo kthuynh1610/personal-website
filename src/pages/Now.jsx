@@ -10,18 +10,14 @@ export default function Now() {
 
       <ul className="interest-list">
         <li>
-          Building <a href="https://stashmap.me" target="_blank" rel="noreferrer">Stash</a> —
-          working on the Discover tab, community feed, and Android release via EAS.
-        </li>
-        <li>
-          Working on OMFP regional availability at Kmart — CDK infrastructure,
+          Working on Availability system at Kmart — CDK infrastructure,
           S3 cross-stack sharing, and proxy filtering logic.
         </li>
         <li>
           Exploring a popup cafe concept in Melbourne.
         </li>
         <li>
-          Reading Jin Yong.
+          Reading House of the Dragon.
         </li>
       </ul>
     </div>
