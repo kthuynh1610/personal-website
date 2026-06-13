@@ -10,15 +10,13 @@ export default function About() {
       <hr />
 
       <p>
-        Full-stack software engineer with ~3 years of experience building distributed systems
-        at Kmart, Change Beetle, and Adiva. Currently on the the Availability team at Kmart
-        , working with TypeScript, Node.js, React.js, AWS, etc.
+        Over the past ~3 years, I've worked on distributed systems at Kmart, Change Beetle, and Adiva. I'm currently on the Availability team at Kmart, where we handle stock, regional availability, reservations, and fulfillment at scale. I work primarily with TypeScript, Node.js, React, and AWS, etc.
       </p>
 
       <p>
-        AWS Certified Cloud Practitioner and Solutions Architect Associate.
+          · AWS Certified Cloud Practitioner and Solutions Architect Associate.
         <br />
-        Bachelor of IT from Deakin University (2019–2022), distinction average final year project.
+          · Bachelor of IT from Deakin University (2019–2022), distinction average final year project.
       </p>
 
       <p>Email: <a href="mailto:ktuhuy1610@gmail.com">ktuhuy1610@gmail.com</a></p>
