@@ -25,6 +25,23 @@ src/
 
 ## Deploy
 
+### Firebase Hosting via GitHub Actions
+
+This repo now deploys automatically to Firebase Hosting on every push to `main`.
+
+1. Create a Firebase project (or use an existing one).
+2. In GitHub, go to `Settings -> Secrets and variables -> Actions` and add:
+  - `FIREBASE_PROJECT_ID`: your Firebase project id.
+  - `FIREBASE_SERVICE_ACCOUNT`: service account JSON (entire JSON string).
+3. Create the service account JSON from Firebase:
+  - Firebase Console -> Project settings -> Service accounts -> Generate new private key.
+4. Push to `main`; GitHub Actions will build and deploy to Firebase Hosting live channel.
+
+Workflow file: `.github/workflows/firebase-hosting.yml`
+Hosting config: `firebase.json`
+
+### Other Platforms
+
 Works on Vercel, Netlify, Cloudflare Pages, GitHub Pages.
 
 For Vercel: `vercel --prod`  

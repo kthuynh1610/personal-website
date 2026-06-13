@@ -74,6 +74,7 @@ body {
   width: 100%;
   min-width: 0;
   max-width: 520px;
+  margin-left: 80px;
   margin-right: auto;
 }
 
@@ -458,6 +459,10 @@ hr {
   .site {
     padding: 16px 12px;
     gap: 16px;
+  }
+
+  .site-main {
+    margin-left: 16px;
   }
 
   h1 {

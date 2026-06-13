@@ -3,11 +3,11 @@ const projects = [
     name: 'Stash',
     url: 'https://stashmap.me',
     desc: 'A map curation app for discovering and saving local spots. Built solo, targeting Vietnamese users and expats in Melbourne.',
-    meta: 'Expo · NestJS · PostgreSQL · PostGIS · Railway · Vercel',
+    meta: 'Expo · NestJS · PostgreSQL · PostGIS · Railway · Vercel · Claude 4.x · Vibe Coding',
     status: 'active',
   },
   {
-    name: 'Kmart',
+    name: 'Kmart Australia Ltd',
     url: null,
     desc: 'Selected fulfillment and availability work across the Kmart platform.',
     highlights: [
@@ -35,7 +35,7 @@ const projects = [
     status: 'shipped',
   },
   {
-    name: 'Change Beetle',
+    name: 'Change Beetle Ltd',
     url: null,
     desc: 'A wind turbine planning tool that won the Victorian Government Low Carbon Manufacturing Grant.',
     meta: 'React · ArcGIS · OpenAI · Terraform · AWS · PostgreSQL · Firebase ',
