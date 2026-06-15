@@ -117,6 +117,8 @@ body.theme-retro {
   gap: 72px;
   padding: 64px 48px;
   align-items: start;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .modern-sidebar {
@@ -129,6 +131,7 @@ body.theme-retro {
   text-align: left;
   width: fit-content;
   margin: 0 auto;
+  padding: 16px;
 }
 
 .modern-avatar {
@@ -157,7 +160,7 @@ body.theme-retro {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  min-width: 0;
+  min-width: 48%;
   --modern-gutter: 14px;
 }
 
@@ -324,7 +327,7 @@ body.theme-retro {
   width: 100%;
   min-width: 0;
   max-width: 520px;
-  margin-left: 80px;
+  margin-left: 200px;
   margin-right: auto;
 }
 
@@ -825,6 +828,8 @@ hr {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 28px 16px;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
   .modern-sidebar {
@@ -850,6 +855,10 @@ hr {
   .modern-role {
     font-size: 15px;
     margin-top: 6px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
   }
 
   .modern-section h2 {
