@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
+import cvFile from './assets/KT-CV-05052026.pdf'
 
 const navLinks = [
   { to: '/about', label: 'About' },
@@ -25,7 +26,7 @@ export default function Layout({ children }) {
               {label}
             </Link>
           ))}
-          <a href="mailto:ktuhuy1610@gmail.com" className="nav-link">Email</a>
+          <a href={cvFile} download="KT-CV-05052026.pdf" className="nav-link">View my full résumé</a>
         </nav>
       </header>
       <main className="site-main">{children}</main>
