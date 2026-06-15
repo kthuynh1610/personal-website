@@ -10,6 +10,9 @@ export default function Now() {
 
       <ul className="interest-list">
         <li>
+          I came up with the idea for some new side projects that helps me learn and manage my investments. More details coming soon.
+        </li>
+        <li>
           Working on Availability system at Kmart — CDK infrastructure,
           S3 cross-stack sharing, and proxy filtering logic.
         </li>
