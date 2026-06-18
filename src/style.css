@@ -744,6 +744,7 @@ hr {
     flex: 0 1 65%;
     width: auto;
     max-width: 100%;
+    margin-left: 0;
     margin-right: auto;
   }
 
