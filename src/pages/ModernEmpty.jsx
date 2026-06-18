@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import aboutPhoto from '../assets/IMG_4665.jpg'
+import bgPhoto from '../assets/pexels-jplenio-1103970.jpg'
 import cvFile from '../assets/KT-CV-05052026.pdf'
 
 const projects = [
@@ -160,7 +161,7 @@ export default function ModernEmpty() {
   }, [])
 
   return (
-    <div className="modern-bg-wrapper">
+    <div className="modern-bg-wrapper" style={{ backgroundImage: `url(${bgPhoto})` }}>
       <main id="top" className="modern-page" aria-label="Modern single-page portfolio">
       <aside className="modern-sidebar">
         <img src={aboutPhoto} alt="Tu Huynh" className="modern-avatar" />
