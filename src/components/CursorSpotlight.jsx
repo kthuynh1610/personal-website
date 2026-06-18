@@ -45,8 +45,7 @@ export default function CursorSpotlight({
           height: '100%',
           pointerEvents: 'none',
           zIndex: 2,
-          background: `radial-gradient(circle ${radius}px at var(--x, 50%) var(--y, 50%), ${color} 0%, ${midColor} 50%, transparent 100%)`,
-          transition: 'background 0.05s ease-out',
+          background: `radial-gradient(800px at var(--x, 50%) var(--y, 50%), rgba(120, 180, 220, 0.12), transparent 70%)`,
         }}
       />
       <div style={{ position: 'relative', zIndex: 1 }}>{children}</div>

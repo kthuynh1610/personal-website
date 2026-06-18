@@ -25,7 +25,7 @@ export default function App() {
 
   if (pathname === '/modern') {
     return (
-      <CursorSpotlight radius={360} color="rgba(0,0,0,0.10)" midColor="rgba(0,0,0,0.045)">
+      <CursorSpotlight radius={360} color="rgba(255,255,255,0.12)" midColor="rgba(255,255,255,0.05)">
         <ModernEmpty />
       </CursorSpotlight>
     )

@@ -160,7 +160,8 @@ export default function ModernEmpty() {
   }, [])
 
   return (
-    <main id="top" className="modern-page" aria-label="Modern single-page portfolio">
+    <div className="modern-bg-wrapper">
+      <main id="top" className="modern-page" aria-label="Modern single-page portfolio">
       <aside className="modern-sidebar">
         <img src={aboutPhoto} alt="Tu Huynh" className="modern-avatar" />
         <h1 className="modern-name">Tu Huynh</h1>
@@ -309,5 +310,6 @@ export default function ModernEmpty() {
         </section>
       </section>
     </main>
+    </div>
   )
 }
